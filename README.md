@@ -1,11 +1,16 @@
 # discord-bot
 
-## Packages
+To run locally:
 
-discord.py==1.7.1
+Install paclages from requirements.txt
 
-requests==2.7.0
+    pip install -r requirements.txt
 
-python-dotenv==0.10.1
+Run bot.py
 
-numpy==1.20.2
+To add to your server, use this url:
+
+    https://discord.com/api/oauth2/authorize?client_id=837881881252724767&permissions=8&scope=bot
+
+
+
