@@ -6,7 +6,7 @@ import requests
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.environ['DISCORD_TOKEN']
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 client = commands.Bot(command_prefix='$')
 
